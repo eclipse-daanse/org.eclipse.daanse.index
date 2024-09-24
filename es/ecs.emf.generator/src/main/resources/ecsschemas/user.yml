@@ -83,7 +83,7 @@
       description: >
         User's full name, if available.
       multi_fields:
-        - type: EcsMultiFiels
+        - type: match_only_text
           name: text
 
     - name: email

@@ -27,7 +27,7 @@
 
   <properties>
     <revision>0.0.1-SNAPSHOT</revision>
-    <scm.repo.detail>org.eclipse.daanse.rdb</scm.repo.detail>
+    <scm.repo.detail>org.eclipse.daanse.index</scm.repo.detail>
 <!--    <bnd.version>7.1.0-SNAPSHOT</bnd.version>-->
     <gecko.emf.version>6.1.3</gecko.emf.version>
     <gecko.emf.version>6.1.3</gecko.emf.version>
