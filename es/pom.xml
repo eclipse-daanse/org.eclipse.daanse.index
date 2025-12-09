@@ -20,8 +20,8 @@
   <artifactId>org.eclipse.daanse.index.es</artifactId>
   <packaging>pom</packaging>
   <modules>
-  	<module>ecs.emf.model</module>
-  	<module>mapping.emf.model</module>
-  	<module>ecs.emf.generator</module>
+    <module>ecs.emf.model</module>
+    <module>mapping.emf.model</module>
+    <module>ecs.emf.generator</module>
   </modules>
 </project>

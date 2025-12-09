@@ -19,7 +19,7 @@
   <parent>
     <groupId>org.eclipse.daanse</groupId>
     <artifactId>org.eclipse.daanse.pom.parent</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.5-SNAPSHOT</version>
   </parent>
   <artifactId>org.eclipse.daanse.index</artifactId>
   <version>${revision}</version>
@@ -36,10 +36,23 @@
     <emf.ecore.xmi.version>2.37.0</emf.ecore.xmi.version>
   </properties>
 
+  <repositories>
+    <repository>
+      <id>ossrh</id>
+      <name>Sonatype Nexus Snapshots</name>
+      <url>https://central.sonatype.com/repository/maven-snapshots</url>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
 
   <modules>
 
-  <module>es</module>
+    <module>es</module>
   </modules>
 
 </project>
