@@ -29,6 +29,7 @@ header:
     - '**/*.json'
     - '**/*.csv'
     - '**/*.properties'
+    - '**/*.yaml'
     - '**/*.maven'
     - '**/*.html'
     - '**/.classpath'
